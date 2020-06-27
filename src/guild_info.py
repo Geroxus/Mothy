@@ -38,9 +38,6 @@ import os
 #   same as get_prefix but returns list of integers which correspond to the operator IDs
 
 
-# version = 0.4.9
-
-
 class Settings:
     def __init__(self, guild_id, prefix, admin_prefix, operator_list):
         self.guild_id = guild_id
