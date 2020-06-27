@@ -1,0 +1,31 @@
+**Features in Mothy V 1.0:**
+    General:
+        Commands:
+            !help gives a short introduction and few helps but as a flavoured text
+            !commandslist returns a list of all available commands
+            !cutemoth sends you a random picture of a cute moth
+            (!newmoth adds a new picture to !cutemoth command picture pool)
+            !features returns this list
+        Roles:
+            Shall only react gracefully to people with Mothian Role or higher and be
+            Just nice to people other than that
+        Random word reactions (word: reaction):
+            Threat: this is a threat of love with cute moth with knife gif
+            Moth: 1 in 100 (or something) send blessings from the big Lamp
+    Minecraft: (“!mc “)
+        Commands:
+            Store {name}:{coordinates}: stores {coordinates} with {name}
+            Read {name}: returns coordinates with respective {name}
+            readall: returns whole list with all names and coordinates
+            todo: returns list of all things that are to be done and a percentage
+                “ add {item}”: adds a new item to the ToDo list
+                “ update {item}:{percentage}”: updates progress of {item} to {percentage}
+                Removes/archives items automatically if they have been at 100% for a day
+    Other
+        Daily reminders:
+            Remind everyone to go out and praise the sun
+                Set time with “!time {tz} {time}”
+                    Tz = timezone (will add a list as to which are available)
+                    Time = time in 24:00 format (it’s more easy for me this way, sorry am/pm-people)
+                Everyone in Moth Cult will get this message
+            Reminds Grey that he is being loved!
