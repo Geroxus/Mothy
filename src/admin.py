@@ -1,5 +1,3 @@
-# import discord
-
 from src import send
 from src.log import log
 
@@ -48,9 +46,6 @@ admin_prefix_len = 2
 #   the format is: <prefix>change:<setting line name>"<new setting context
 #       theoretically the second " is not needed but will be recommended anyways
 #   TODO not happy with how this works yet, need to work that out
-
-
-# version = 0.4
 
 
 async def admin(message, client):

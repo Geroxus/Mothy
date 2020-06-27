@@ -15,9 +15,6 @@ import time
 #
 
 
-# version = 1
-
-
 def log(string, guild, new_entry=False):
     now = time.gmtime()
     # file = open('./log/{}-{}-{}'.format(now.tm_year, now.tm_mon, now.tm_mday), 'ta')

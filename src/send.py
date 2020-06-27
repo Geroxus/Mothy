@@ -15,9 +15,6 @@
 #   move all .send interactions to this file
 
 
-# version = 0.2
-
-
 async def dm_send(message, file):
     if not message.author.dm_channel:
         await message.author.create_dm()
